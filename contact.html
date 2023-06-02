@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Photography -- Contact</title>
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/script.js"></script>
+
+	</head>
+	<body>
+	<div class="container">
+	
+		<header>
+			<div class="logo"><img src="images/logo2.png"></div>
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+		</header>
+		<div class="info">
+		<img src="images/contact.png" height="150" width="150" alt="Email and Contact Info">
+		<h1>Contact Me</h1>
+			<p>Jonathan Elliott<br/>
+			   Tullahoma TN <br/>
+			   ricoh@charter.net <br/>
+               931-307-4985	
+            </p>
+		</div>
+
+
+	<form class="form" name="contactform" method="post" action="mail.php">
+ 		<div class="form_input">
+		 	<label for="first_name">First Name *</label>
+		 	<input type="text" name="first_name" >
+		 </div>
+		 
+		<div>
+			<label for="last_name">Last Name *</label>
+		 	<input class="form_input" type="text" name="last_name">
+		</div>
+		 
+		 <div>
+		 	<label class="form_input" for="email">Email Address *</label>
+		 	<input  type="text" name="email" maxlength="80" size="30">
+		 </div>
+		 	
+		  	<label class="form_input" for="telephone">Telephone Number</label>
+			<input  type="text" name="telephone" maxlength="30" size="30">
+		 
+		 <div>
+		 	<label for="comments">Comments *</label>
+		 	<textarea  name="comments" maxlength="1000"  rows="10"></textarea>
+		 </div>
+		 
+		  <input type="submit" value="Submit">   
+	</form>
+
+	
+			<footer>
+			<p>&copy; 2016 Jonathan Photography Studios</p>
+			<p>Designed by <a href="http:://www.dragondesignsstudio.com">Dragon Design Studios</a></p>
+		</footer>
+		</div> 
+	</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav
+{
+  position: absolute;
+  top: 175px;
+  left: 0;
+  width: 150px;
+  opacity: .7;
+}
+header nav a:hover {
+  text-decoration: underline;
+  transform: scale(1.15);
+}
+nav a{
+  text-align: center;
+  font: .75rem  Arial ;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+#photos, .info{
+  position: absolute;
+  left: 25vw;
+
+}
+
+#photos img {
+  display:none;
+  width: 100%;
+}
+
+#photo .show{
+  display: inline;
+}
+
+form.form{
+  position: fixed;
+  left: 40vw;
+  top: 160px;
+}
+
+
+input[type=text], textarea {
+  width: 130%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+footer {
+  position: fixed;
+  bottom: 60px;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+footer p:last-child {
+  font-size: .6em;
+
+}
